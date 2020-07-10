@@ -1,95 +1,72 @@
 .App {
-    min-height: 100vh;
+	min-height: 100vh;
 }
 
 .layout {
-    min-height: inherit !important;
+	min-height: inherit !important;
 }
 
 .logo {
-    color: #fff;
-    font-size: 20px;
-}
-
-.ant-input-group-addon .ant-select {
-    width: 100px;
+	color: #fff;
+	font-size: 20px;
 }
 
 .searchBox {
     display: grid;
-    grid-template-columns: minmax(0, 80%) minmax(0, 20%);
-    grid-gap: 10px;
-}
-
-.error {
-    border: 1px solid red;
-}
-
-.text-error {
-    margin: 5px;
-    color: red;
-    font-size: 14px;
-}
-
-.tags-wrapper {
-    margin: 5px 10px 0 10px;
-    padding: 5px;
-    display: inline-grid;
-    grid-auto-flow: column;
-    grid-template-columns: auto;
-    grid-gap: 5px;
-    align-items: center;
+    margin: 0 20px;
+    text-align: center;
 }
 
 .battle-list {
-    margin: 10px 0;
+	margin: 10px 0;
 }
 
 .battle-meta .ant-card-meta-title {
-    text-align: center;
-    font-size: 20px;
-    margin-bottom: 5px;
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 5px;
 }
 
 .card-body {
-    padding: 10px 5px;
-    min-height: 300px;
-    display: flex;
-    align-content: center;
-    justify-content: space-evenly;
+	padding: 10px 5px;
+	min-height: 300px;
+	display: flex;
+	align-content: center;
+	justify-content: space-evenly;
 }
 
 .attacker,
 .defender {
-    border: 1px solid lightgrey;
-    border-radius: 50%;
-    width: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	border: 1px solid lightgrey;
+	border-radius: 50%;
+	width: 40%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .war {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .win {
-    border-color: limegreen;
+	border-color: limegreen;
 	transition: all 1s linear;
 }
 
 .loose {
-    border-color: red;
+	border-color: red;
 }
 
 .attack-details {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
 }
 
-.attacker-details, .defender-details {
-    display: flex;
-    flex-direction: column;
+.attacker-details,
+.defender-details {
+	display: flex;
+	flex-direction: column;
 }
